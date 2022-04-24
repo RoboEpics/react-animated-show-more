@@ -1,10 +1,10 @@
 {
-  "name": "react-animated-show-more",
-  "version": "1.0.2",
+  "name": "@roboepics/react-animated-show-more",
+  "version": "1.1.0",
   "description": "Fully customizable animated 'show more' plugin",
   "main": "build/index.js",
-  "repository": "https://github.com/tinacious/react-animated-show-more",
-  "author": "Tina Holly",
+  "repository": "https://github.com/RoboEpics/react-animated-show-more",
+  "author": "Tina Holly, forked by moondef, then forked by RoboEpics",
   "license": "MIT",
   "private": false,
   "scripts": {
@@ -27,7 +27,7 @@
   },
   "dependencies": {},
   "peerDependencies": {
-    "react": "^16.8.6"
+    "react": "^16.8.6 || ^17.0.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.4.3",

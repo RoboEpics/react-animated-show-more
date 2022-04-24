@@ -31,11 +31,11 @@ Try out the [demo](https://tinacious.github.io/react-animated-show-more) for you
 
 With NPM:
 
-    npm install --save react-animated-show-more
+    npm install --save @moondef/react-animated-show-more
 
 With Yarn:
 
-    yarn add react-animated-show-more
+    yarn add @moondef/react-animated-show-more
 
 The component wraps around your lengthy text section.
 

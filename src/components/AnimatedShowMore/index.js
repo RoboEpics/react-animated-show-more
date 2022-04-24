@@ -32,7 +32,9 @@ export const AnimatedShowMore = ({ toggle, height = 200, shadowColor, speed, chi
   /**
    * Toggle between the maximum height (height of the content)
    */
-  const handleToggleHeight = () => {
+  const handleToggleHeight = (e) => {
+    e.preventDefault();
+    e.stopPropagation();
     if (currentHeight === height) {
       setCurrentHeight(contentsHeight);
       setIsOpen(true);
@@ -55,10 +57,10 @@ export const AnimatedShowMore = ({ toggle, height = 200, shadowColor, speed, chi
           {children}
         </MainContent>
 
-        {/* Invisible conent container */}
+        {/* Invisible content container */}
         <div
           ref={contentContainerRef}
-          style={{ opacity: 0, position: 'absolute', top: 0 }}
+          style={{ opacity: 0.08, position: 'absolute', top: 0 }}
           aria-hidden="true">
           {children}
         </div>
