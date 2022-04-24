@@ -31,7 +31,7 @@ module.exports = {
               "@babel/plugin-transform-react-jsx",
               "@babel/plugin-syntax-jsx",
               "@babel/plugin-proposal-object-rest-spread",
-              "transform-class-properties"
+              "@babel/plugin-proposal-class-properties"
             ]
           }
         }

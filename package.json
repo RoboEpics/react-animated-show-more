@@ -9,7 +9,7 @@
   "private": false,
   "scripts": {
     "build": "webpack",
-    "bundle-demo": "parcel build src/index.html --out-dir ./docs --public-url ./",
+    "bundle-demo": "parcel build src/index.html --dist-dir ./docs --public-url ./",
     "prepublish": "npm run build",
     "lint": "eslint src",
     "test": "jest src",
@@ -17,7 +17,7 @@
     "coverage-ci": "codecov",
     "test:watch": "jest src --watch",
     "open-coverage": "open coverage/lcov-report/index.html",
-    "start": "parcel src/index.html --out-dir tmp"
+    "start": "parcel src/index.html --dist-dir tmp"
   },
   "jest": {
     "collectCoverage": true,
@@ -31,7 +31,7 @@
   },
   "devDependencies": {
     "@babel/cli": "^7.4.3",
-    "@babel/core": "^7.0.0-0",
+    "@babel/core": "^7.0.0",
     "@babel/plugin-proposal-class-properties": "^7.4.0",
     "@babel/plugin-proposal-object-rest-spread": "^7.4.3",
     "@babel/plugin-syntax-jsx": "^7.2.0",
@@ -41,8 +41,6 @@
     "@babel/preset-react": "^7.0.0",
     "babel-jest": "^24.7.1",
     "babel-loader": "^8.0.5",
-    "babel-plugin-transform-class-properties": "^6.24.1",
-    "babel-preset-react": "^6.24.1",
     "codecov": "^3.3.0",
     "enzyme": "^3.9.0",
     "enzyme-adapter-react-16": "^1.12.1",
@@ -53,8 +51,7 @@
     "eslint-plugin-react": "^7.12.4",
     "eslint-plugin-react-hooks": "^1.6.0",
     "jest": "^24.7.1",
-    "parcel": "^1.12.3",
-    "parcel-bundler": "^1.12.3",
+    "parcel": "^2.5.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-test-renderer": "^16.8.6",
