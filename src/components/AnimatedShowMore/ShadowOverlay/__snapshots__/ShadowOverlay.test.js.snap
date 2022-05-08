@@ -5,9 +5,9 @@ exports[`ShadowOverlay Snapshots renders a custom shadow 1`] = `
   className="AnimatedShowMore__ShadowOverlay"
   style={
     Object {
-      "backgroundImage": "linear-gradient(to bottom, transparent, #f39)",
+      "backgroundImage": "linear-gradient(to bottom, rgba(255, 255, 255, 0), #f39)",
       "bottom": 0,
-      "height": 60,
+      "height": 80,
       "left": 0,
       "position": "absolute",
       "width": "100%",
@@ -21,9 +21,9 @@ exports[`ShadowOverlay Snapshots renders the default shadow 1`] = `
   className="AnimatedShowMore__ShadowOverlay"
   style={
     Object {
-      "backgroundImage": "linear-gradient(to bottom, transparent, #fff)",
+      "backgroundImage": "linear-gradient(to bottom, rgba(255, 255, 255, 0), #fff)",
       "bottom": 0,
-      "height": 60,
+      "height": 80,
       "left": 0,
       "position": "absolute",
       "width": "100%",

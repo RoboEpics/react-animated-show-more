@@ -1,6 +1,5 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import { mount, shallow } from 'enzyme';
+import { mount } from 'enzyme';
 import { AnimatedShowMore } from './index';
 import { DemoText } from '../DemoText';
 import { renderSnapshot } from '../../../test-helpers';
